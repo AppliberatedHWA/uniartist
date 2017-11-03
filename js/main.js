@@ -16,6 +16,8 @@ class App {
     }
 
     constructor() {
+        console.log(window.innerHeight);
+        console.log(window.screen.availHeight);
         setInterval(() => this.addNewChar(), 500);
     }
 }
